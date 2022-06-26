@@ -40,24 +40,3 @@ const fib2 = (n: number): number => {
   return Math.floor(res)
 }
 assert(fib2(40) == 102334155)
-
-// matrix exponentation
-
-const fib_matrix2 = math.matrix([
-  [1, 1],
-  [1, 0],
-])
-function matrix_fib(n: number) {
-  if (n == 0 || n == 1) {
-    return n
-  }
-  var res = math.pow(fib_matrix2, n + 1)
-  return res
-}
-//assert(matrix_fib(10) == 55)
-const d = math.matrix([
-  [7, 1],
-  [-2, 3],
-])
-console.log(d.subset(math.index(1, 1)))
-console.log(math.pow(d, 2))

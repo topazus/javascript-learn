@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Functions</h2>
+
+    <p>Do a calculation and then display the result.</p>
+
+    <p id="demo 1"></p>
+    <p id="demo 2"></p>
+
+    <script>
+      function myDisplayer(some) {
+        document.getElementById("demo 1").innerHTML = some;
+      }
+
+      function myCalculator(num1, num2) {
+        let sum = num1 + num2;
+        return sum;
+      }
+      function myDisplayer2(some) {
+        document.getElementById("demo 2").innerHTML = some;
+      }
+
+      function myCalculator2(num1, num2) {
+        let sum = num1 + num2;
+        myDisplayer2(sum);
+      }
+
+      let result = myCalculator(5, 9);
+      myDisplayer(result);
+      myCalculator2(5, 9);
+    </script>
+  </body>
+</html>

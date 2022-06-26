@@ -1,0 +1,12 @@
+{
+  "name": "javascript-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "t1.js",
+  "scripts": {
+
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
+  },
+  "scripts": {
+    "start": "babel main.js --out-file output.js && node output.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
